@@ -12,18 +12,20 @@
 
 <body>
     <form method="post">
-        <h1>¡Suscribete!</h1>
+        <h1>¡REGISTRARSE!</h1>
         <input type="text" name="name" placeholder="Nombre completo">
         <input type="email" name="email" placeholder="Email">
         <input type="password" name="password" placeholder="Contraseña">
-        <input type="submit" value="Enviar" name="register">
+        <input type="submit" value="Finalizar" name="register">
 
         <div class="flex-col-c p-t-170 p-b-40">
-            <span class="txt1 p-b-9">
+            <span class="OLVIDE">
                 Ya tiene una cuenta?
             </span>
+            <br>
+            <br>
 
-            <a href="../index.php" class="txt3">
+            <a href="../php-login/login.php" class="olvide1">
                 Iniciar Sesón!
             </a>
         </div>

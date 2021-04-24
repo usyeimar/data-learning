@@ -48,7 +48,7 @@ input[type='submit']{
 	margin: 0 10%;
 	margin-top: 22px;
 	border: none;
-
+    border-radius: 10px;
 	background: #222A3F;
     padding: 10px;
     font-size: 16px;
@@ -110,7 +110,7 @@ input[type='submit']{
 
 
 .olvide1 {
-    color: rgb(8, 0, 0);
+    color: rgb(0, 0, 0);
     text-decoration-style: none;
     text-decoration-line: none;
     font-size: 20px;
@@ -118,11 +118,12 @@ input[type='submit']{
     /* border: 2px solid white; */
     padding: 10px;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, .5);
+    background-color: rgb(32, 105, 214);
 }
 
 .olvide1:hover {
-    color: rgb(61, 226, 10);
+    color: rgb(255, 255, 255);
     text-decoration-style: none;
     text-decoration-line: none;
     cursor: pointer;
