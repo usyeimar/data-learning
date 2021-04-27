@@ -91,6 +91,34 @@
             <li data-target="#carousel1" data-slide-to="2"></li>
         </ol>
     </div>
+<?php
+session_start();
+ $email = $_SESSION['email'];
+
+echo"<h1>BIENEVENIDO $email</h1>";
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

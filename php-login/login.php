@@ -23,7 +23,10 @@
             </div>
             <h1 class="text-light">¡INICIAR SESION!</h1>
             <div class="form-group">
+            
+            
               <input type="email"  class="form-control form-control-lg" name="email" placeholder="name@example.com" >
+              <i class="fas fa-user"></i>
             </div>
 
             <input type="password" name="password" class="form-control form-control-lg" placeholder=" Password">
