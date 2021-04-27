@@ -20,19 +20,6 @@ if(mysqli_num_rows($validar_login) > 0){
     ';
     exit;
 }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
+include("../php-db/dbCloseConexion.php");
 ?>
 

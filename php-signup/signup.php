@@ -16,7 +16,7 @@
               <img src="./assets/cover-signup/icon-signup.png" th:src="@{/img/user.png}" />
             </div>
         <h1>¡REGISTRARSE!</h1>
-        <input type="text" name="name" placeholder="Nombre completo">
+        <input type="text" name="name"  placeholder="Nombre completo">
         <input type="email" name="email" placeholder="Email">
         <input type="password" name="password" placeholder="Contraseña">
         <input type="submit" value="Finalizar" name="register">
