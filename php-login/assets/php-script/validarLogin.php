@@ -15,7 +15,7 @@ if(mysqli_num_rows($validar_login) > 0){
     echo'
     <script font-face="Century Gothic">
     alert("Usuariuo y/o Contraseña Incorrectos...[Por favor verifique los datos introducidos]");
-    window.location = "/Task-list/index.php";
+    window.location = "/data-learning/php-login/login.php";
     </script>
     ';
     exit;

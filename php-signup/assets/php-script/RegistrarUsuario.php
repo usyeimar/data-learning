@@ -19,7 +19,7 @@ if (isset($_POST['register'])) {
 ?>
             <script>
                 alert('¡Ta has Inscrito Correctamente!🎃')
-                window.location = "/Task-list/index.php";
+                window.location = "/data-learning/php-login/login.php";
             </script>
 
         <?php

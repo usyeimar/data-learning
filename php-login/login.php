@@ -27,7 +27,7 @@
             </div>
 
             <input type="password" name="password" placeholder=" Ingrese su Contraseña">
-            <input type="submit" value="INGRESAR" name="login">
+            <input type="submit" value="INGRESAR" name="btnLogin">
             <div class="form-group mx-sm-4 text-right">
               <span class=""><a href="#" class="olvide">No tienes una cuenta?</a></span>
             </div>
