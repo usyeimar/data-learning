@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Login</title>
 </head>
 
 <body>
     <form method="post">
+        <div class="col-12 user-img">
+              <img src="./assets/cover-signup/icon-signup.png" th:src="@{/img/user.png}" />
+            </div>
         <h1>¡REGISTRARSE!</h1>
         <input type="text" name="name" placeholder="Nombre completo">
         <input type="email" name="email" placeholder="Email">
@@ -32,7 +35,7 @@
 
     </form>
     <?php
-    include_once("./includes/registrar.php");
+    include_once("./assets/php-script/RegistrarUsuario.php");
     ?>
 
 </body>

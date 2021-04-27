@@ -1,6 +1,6 @@
 <?php
 
-include_once("./includes/conn_db.php");
+include_once("dbConexion.php");
 
 
 if(isset($_POST['register'])){

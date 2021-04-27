@@ -1,26 +1,24 @@
 * {
-	padding: 0;
-	margin: 0;
-	font-family: century gothic;
-	text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+    text-align: center;
 }
 
-body{
-	background-image: url(../img/cover-signup/gears-5193383_1280.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+body {
+    background-image: url(../cover-signup/gears-5193383_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 form {
-	padding: 50px 20px;
-	background-color: #ededed;
-	margin: calc(25% + 100px);
-	margin-top: 70px;
-	padding-top: 28px;
-	margin-bottom: 30px;
-
-	
+    padding: 50px 20px;
+    background-color: #ededed;
+    margin: calc(25% + 100px);
+    margin-top: 70px;
+    padding-top: 28px;
+    margin-bottom: 30px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
@@ -28,52 +26,50 @@ form {
 }
 
 h1 {
-	text-align: center;
-	padding: 12px;
-	color: #444
+    text-align: center;
+    padding: 12px;
+    color: #444
 }
 
 input {
-	width: calc(100% - 20px);
-	padding: 9px;
-	margin: auto;
-	margin-top: 12px;
-	font-size: 16px
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px
 }
 
-input[type='submit']{
-	background-color: #48e;
-	color: #fff;
-	width: calc(80% - 20px);
-	margin: 0 10%;
-	margin-top: 22px;
-	border: none;
+input[type='submit'] {
+    background-color: #48e;
+    color: #fff;
+    width: calc(80% - 20px);
+    margin: 0 10%;
+    margin-top: 22px;
+    border: none;
     border-radius: 10px;
-	background: #222A3F;
+    background: #222A3F;
     padding: 10px;
     font-size: 16px;
     font-weight: 700!important;
     color: white;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
     transition: 0.5s ease-in;
-
-	
 }
-
 
 .ok {
-	text-align: center;
-	width: 100%;
-	padding: 12px;
-	background-color: #1e6;
-	color: #fff
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff
 }
+
 .bad {
-	text-align: center;
-	width: 100%;
-	padding: 12px;
-	background-color: #a22;
-	color: #fff
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff
 }
 
 .form-control {
@@ -94,7 +90,6 @@ input[type='submit']{
     color: white;
 }
 
-
 .olvide {
     color: rgb(0, 0, 0);
     text-decoration-style: none;
@@ -107,7 +102,6 @@ input[type='submit']{
     text-decoration-line: none;
     cursor: pointer;
 }
-
 
 .olvide1 {
     color: rgb(0, 0, 0);
@@ -129,7 +123,7 @@ input[type='submit']{
     cursor: pointer;
 }
 
+
 /*
 SIN ESTRUCTURAR
 */
-
