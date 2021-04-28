@@ -56,7 +56,7 @@
     <div class="container">
       <!-- navbar brand -->
       <a class="navbar-brand logo" href="#">
-        <img src="img/dark-logo.png" alt="">
+        <img src="img/data-learning.png" alt="">
       </a>
       <!-- navbar button toggler -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
