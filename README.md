@@ -1,6 +1,6 @@
 # data-learning
 
-_Proyecto final origen _de implementas la fase final en el desarrollp de software
+_Proyecto final origen _de implementas la fase final en el desarrollp de software_
 
 ## Comenzando 🚀
 
