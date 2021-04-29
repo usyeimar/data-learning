@@ -1,15 +1,15 @@
 <?php
 session_start();
     include('../php-db/dbConexion.php');
-
     $email = $_POST['email'];
     $password = $_POST['password'];
     $query ="SELECT email,password FROM registro where email = '$email' and password = '$password'";
     $validar_login = mysqli_query($conn,$query);
+    include("../php-db/dbCloseConexion.php");
 
 if(mysqli_num_rows($validar_login) > 0){
     $_SESSION['email'] = $email;
-    header("location:  /data-learning/modules/dashboard.php");
+    header("location:/data-learning/modules/dashboard.php");
     exit;
 }else{
     echo'
@@ -20,6 +20,6 @@ if(mysqli_num_rows($validar_login) > 0){
     ';
     exit;
 }
-include("../php-db/dbCloseConexion.php");
+
 ?>
 
