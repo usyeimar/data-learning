@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (e) {
-  const parrafos = document.querySelectorAll(".descripcion");
+  const parrafos = document.querySelectorAll(".descripcion",".card-text");
   let alturas = [];
   let alturaMaxima = 0;
 

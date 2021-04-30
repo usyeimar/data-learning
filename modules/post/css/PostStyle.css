@@ -20,11 +20,21 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
+    flex-wrap: wrap;
     max-width: 1000px;
     margin: auto;
 
 }
-
+.pos-prueba{
+    width: 330px;
+    height: 430px;
+    
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
 .post-img-1{
     background: url(../img/post-img-html.png);
     width: 100%;
@@ -32,6 +42,7 @@ body{
     background-size: cover;
     background-position: center;
     transition: .2s;
+    border-radius: 8px;
 }
 .post-img-2{
     background: url(../img/post-img-php.png);

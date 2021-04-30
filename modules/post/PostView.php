@@ -18,7 +18,7 @@
         <div class="post-header">
           <div class="post-img-1"></div>
         </div>
-        <div class="post-body">
+        <div class="post-body" >
           <span> 30 de Abril,2021|Dseño Web</span>
           <h2>Nuevo tutorial de Html</h2>
           <p class="descripcion">
