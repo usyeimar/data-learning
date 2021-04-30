@@ -1,10 +1,10 @@
 # data-learning
 
-_Proyecto final origen _de implementas la fase final en el desarrollp de software_
+_Proyecto final origen de implementar la fase final en el desarrollp de software teninedo en cuentas algunos puntos de vista importantes a tener en cuenta al momento de desaroolar o proveer un servicio para nuestro clientes o para la empres que nos contrata._
 
 ## Comenzando 🚀
 
-_Parar hacer un fork de el proyecto has un git clone de url de el proyecto!!_
+_Parar comenzar a trabajar y contrubuir en el proyecto, debes de saber un poco sobre deploy continuo y tambien manejar las herramientas necesarias para una mejor eficiencia en el trabajo colaborativo.!!_
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
@@ -14,7 +14,12 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-Da un ejemplo
+Php
+ -Desde su sitio oficia 
+Mysql o MariaDB(O tambien puedes octar por otro gestor de bases de datos compatible con sql).
+Tambien si lo deseas puedes intalar el pack completo que incluye todas estas herramientas XAMPP.
+
+
 ```
 
 ### Instalación 🔧
@@ -63,9 +68,10 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Php](https://www.php.net/) - Lenguaje preprocesador en el Backend.
+* [MariaDB](https://mariadb.org/) - Gestor de base de datos.
+* [BOOTSTRAP](https://rometools.github.io/rome/) - Usado para genrar diseños responsivos.
+
 
 ## Contribuyendo 🖇️
 
@@ -77,16 +83,16 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+Usamos [git](https://git-scm.com/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Yeimar Lemus** - *Trabajo Inicial* - [Yeimar-IcloudDesing](https://github.com/Yeimar-IcloudDesing)
+* **David Monterrrosa** - *Documentación* - [andrespxp](https://github.com/andrespxp)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/Yeimar-IcludDesing/data-learning/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
