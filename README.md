@@ -70,7 +70,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [Php](https://www.php.net/) - Lenguaje preprocesador en el Backend.
 * [MariaDB](https://mariadb.org/) - Gestor de base de datos.
-* [BOOTSTRAP](https://rometools.github.io/rome/) - Usado para genrar diseños responsivos.
+* [BOOTSTRAP](https://getbootstrap.com/) - Usado para genrar diseños responsivos.
 
 
 ## Contribuyendo 🖇️
@@ -83,7 +83,7 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 ## Versionado 📌
 
-Usamos [git](https://git-scm.com/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+Usamos [git](https://git-scm.com/) y [Semver](https://semver.org/lang/es/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
