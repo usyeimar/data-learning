@@ -27,7 +27,7 @@
                         <a class="nav-link" href="./cursos.php">Cursos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./notas.php">notas</a>
+                        <a class="nav-link" href="./notas.php">Notas</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
