@@ -23,7 +23,7 @@
 	<main>
 		<div class="contenedor">
 			<video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
-				<source src="../uploads/videos/Nodejs Curso Desde Cero, para principiantes.mp4" type="video/mp4">
+				<source src="./uploads/videos/Python Flask y Mysql Aplicación Web  Aplicación de Ejemplo.mp4" type="video/mp4">
 			</video>
 	
 			<article>

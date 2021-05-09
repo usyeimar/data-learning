@@ -1,4 +1,4 @@
 <?php
 include_once("layout.php");
-include_once("./posts/index.html");
+include_once("./posts/index.php");
 ?>

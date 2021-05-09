@@ -1,11 +1,12 @@
 <?php
 session_start();
-    include('../php-db/dbConexion.php');
+    require('../php-db/dbConexion.php');
+    //$mysqli-> set_charset("utf8");
     $email = $_POST['email'];
     $password = $_POST['password'];
     $query ="SELECT email,password FROM registro where email = '$email' and password = '$password'";
     $validar_login = mysqli_query($conn,$query);
-    include("../php-db/dbCloseConexion.php");
+    require("../php-db/dbCloseConexion.php");
 
 if(mysqli_num_rows($validar_login) > 0){
     $_SESSION['email'] = $email;

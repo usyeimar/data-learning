@@ -18,7 +18,7 @@
             <img src="img/img4.jpg">
             <h4>Modelado de Base de datos| sql</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-            <a href="#">Leer más</a>
+            <a href="../modules/VideoLayout.php">Leer más</a>
         </div>
 
         <div class="card">
