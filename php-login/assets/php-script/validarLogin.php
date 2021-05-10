@@ -10,7 +10,7 @@ session_start();
 
 if(mysqli_num_rows($validar_login) > 0){
     $_SESSION['email'] = $email;
-    header("location:/data-learning/modules/dashboard.php");
+    header("location:/data-learning/App/dashboard.php");
     exit;
 }else{
     echo'

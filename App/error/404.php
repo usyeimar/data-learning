@@ -13,7 +13,7 @@
 <p>
     Lo siento, Esta pagina no se encuentra.!!
 </p>
-<a href="../index.php" class="btn">Regresar a la pagina de inicio</a>
+<a href="../../index.php" class="btn">Regresar a la pagina de inicio</a>
 
 </div>
     

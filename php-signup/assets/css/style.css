@@ -1,8 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: century gothic;
-    text-align: center;
 }
 
 body {
@@ -11,8 +9,23 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+.ok {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff
+}
 
-form {
+.bad {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff
+}
+
+/* form {
     padding: 50px 20px;
     background-color: #ededed;
     margin: calc(25% + 100px);
@@ -56,21 +69,7 @@ input[type='submit'] {
     transition: 0.5s ease-in;
 }
 
-.ok {
-    text-align: center;
-    width: 100%;
-    padding: 12px;
-    background-color: #1e6;
-    color: #fff
-}
 
-.bad {
-    text-align: center;
-    width: 100%;
-    padding: 12px;
-    background-color: #a22;
-    color: #fff
-}
 
 .form-control {
     background: rgba(12, 0, 5, 0.267);
@@ -110,7 +109,7 @@ input[type='submit'] {
     font-size: 20px;
     font-weight: 700!important;
     /* border: 2px solid white; */
-    padding: 10px;
+    /* padding: 10px;
     border-radius: 10px;
     background: rgba(0, 0, 0, .5);
     background-color: rgb(32, 105, 214);
@@ -121,7 +120,7 @@ input[type='submit'] {
     text-decoration-style: none;
     text-decoration-line: none;
     cursor: pointer;
-}
+} */ /*/
 
 
 /*

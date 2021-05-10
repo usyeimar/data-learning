@@ -1,8 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: century gothic;
-	text-align: center;
+	
 }
 @media (max-width:768px){
 }
@@ -13,8 +12,22 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
 
-form {
+/* form {
 	padding: 50px 20px;
 	background-color: #ededed;
 	margin: calc(25% + 100px);
@@ -63,20 +76,7 @@ input[type='submit']{
 }
 
 
-.ok {
-	text-align: center;
-	width: 100%;
-	padding: 12px;
-	background-color: #1e6;
-	color: #fff
-}
-.bad {
-	text-align: center;
-	width: 100%;
-	padding: 12px;
-	background-color: #a22;
-	color: #fff
-}
+
 
 .form-control {
     background: rgba(12, 0, 5, 0.267);
@@ -136,14 +136,14 @@ input[type='submit']{
     font-size: 16px;
     font-weight: 700!important;
     ; */ 
-}
+/* }
 
 .olvide1:hover {
     color: rgb(255, 255, 255);
     text-decoration-style: none;
     text-decoration-line: none;
     cursor: pointer;
-}
+} */ */ /*
 
 /*
 SIN ESTRUCTURAR
