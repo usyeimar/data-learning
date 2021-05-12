@@ -1,8 +1,26 @@
 <?php
 session_start();
-$email = $_SESSION['email'];
-if (!isset($email)) {
-    header("location:../index.php");
+if (!isset($usuario)) {
+    //header("location:../../php-login/login.php");
+    echo '
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    jQuery(function(){   
+        swal({
+            icon:"error ",
+            title: "Oops...",
+            text: "Parece que no te has logueado",
+            type: "error",
+            //timer: 3000
+         }, 
+         function(){
+              window.location.href = "../../php-login/login.php";
+         })
+        });
+    </script>
+    ';
 } else {
 ?>
 

@@ -21,13 +21,13 @@
                     <div class="d-grid gap-3">
                         <div class="shadow-lg p-3 mb-5 bg-body rounded">
                             <br>
-                            <form method="POST" class="form">
+                            <form   method="POST" class="form">
                                 <div class="col-12 user-img">
                                     <img src="./assets/cover-signup/icon-signup.png" th:src="@{/img/user.png}" />
                                 </div>
                                 <h1>¡REGISTRARSE!</h1>
                                 <div class="form-group">
-                                    <input type="text" name="name" placeholder="Nombre" class="form-control " required>
+                                    <input type="text" name="name" placeholder="Nombre" class="form-control " required >
                                 </div>
                                 <br>
                                 <div class="form-group">
@@ -43,11 +43,11 @@
                                 </div>
 
                                 <div class="col-auto">
-                                    <label for="rol"></label>
-                                    <select class="form-select" id="rol" name="rol">
-                                        <option selected>Seleccione su rol...</option>
-                                        <option>Profesor</option>
-                                        <option>Alumno</option>
+                                    <label for="privilegio"></label>
+                                    <select class="form-select" id="privilegio" name="privilegio" >
+                                        <option selected>-Seleccionar un rol- </option>
+                                        <option value="2"> Profesor</option>
+                                        <option value="3">Alumno</option>
                                     </select>
                                 </div>
                                 <br>
@@ -55,12 +55,6 @@
                                     <input type="password" name="password" placeholder="Contraseña" class="form-control" required>
                                 </div>
                                 <br>
-
-                                <!-- <div class="form-group">
-                                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirmar la contraseña" class="form-control" required>
-                                </div>
-                                <br> -->
-
                                 <div class="d-grid gap-2 ">
                                     <input type="submit" value="Crear Cuenta" name="btnregistrar" class="btn btn-outline-success">
                                 </div>
@@ -70,7 +64,7 @@
                                     </span>
                                     <br>
                                     <div class="d-grid gap-2 ">
-                                        <a href="../php-login/login.php" class="btn btn-outline-warning0">
+                                        <a id="btnSA_3" href="../php-login/login.php" class="btn btn-outline-warning0">
                                             Iniciar Sesón!
                                         </a>
                                     </div>
@@ -87,10 +81,14 @@
         </div>
 
     </div>
+    
     <?php
     include_once("./assets/php-script/RegistrarUsuario.php");
     ?>
 
+    
+   <script type="text/javascript" src="./assets/js/EvitarReenvio.js"></script>
 </body>
+<script></script>
 
 </html>

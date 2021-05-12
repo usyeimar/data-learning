@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>Data --Learning</title>
+  <title>.::Data --Learning::.</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta charset="utf-8">
