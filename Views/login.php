@@ -38,16 +38,6 @@
                   <label for="floatingInput">Password</label>
                 </div>
                 <br>
-
-                <div class="form-floating">
-                  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                    <option value="1">Admin</option>
-                    <option value="2" selected>Profesor</option>
-                    <option value="3">Alumno</option>
-                  </select>
-                  <label for="floatingSelect">Seleccione su Tipo de Usuario</label>
-                </div>
-                <br>
                 <div class="d-grid gap-2">
                   <input type="submit" value="Ingresar" name="btnLogin" class="btn btn-outline-primary" />
                 </div>

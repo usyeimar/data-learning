@@ -1,13 +1,14 @@
 <?php
+//abrimos la sesión
 session_start();
-if(isset($_SESSION['usuario'])){
-    if($_SESSION['usuario']['privilegio'] == 2){
-        header('location:../profesor/ProfesorPanel.php');
-
-    }
+ 
+//Si la variable sesión está vacía
+if (!isset($_SESSION['admin'])) 
+{
+   /* nos envía a la siguiente dirección en el caso de no poseer autorización */
+   header("location:../../index.php"); 
 
 }
-header('location:../../index.php')
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +19,7 @@ header('location:../../index.php')
     <title>Document</title>
 </head>
 <body>
-    <h1>Bienvenido <?php echo $_SESSION['privilegio']; ?></h1>
+    <h1>Bienvenido <?php echo $_SESSION['admin']; ?></h1>
 <a href="./scripts/CerrarSesion.php">Cerrar</a>
 
    
